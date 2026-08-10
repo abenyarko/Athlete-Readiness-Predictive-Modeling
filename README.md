@@ -104,4 +104,55 @@ Models were evaluated using:
 
 Classification thresholds were also evaluated using Youden's J statistic to investigate whether alternative probability cutoffs improved sensitivity-specificity tradeoffs.
 
+## Technologies
 
+- R
+- caret
+- randomForest
+- pROC
+- tidyverse
+- dplyr
+- ggplot2
+- Logistic Regression
+- Random Forest
+- Cross-Validation
+- ROC Analysis
+- Git
+- GitHub
+
+## Skills Demonstrated
+
+- 🤖 Supervised Machine Learning
+- 📈 Predictive Modeling
+- 🌲 Random Forest Modeling
+- 📊 Logistic Regression
+- 🧪 Train/Test Validation
+- 🔁 Cross-Validation
+- 🎯 Classification Threshold Optimization
+- 📉 ROC & AUC Analysis
+- ⚖️ Classification Model Evaluation
+- 🔍 Feature Importance
+- 🧹 Data Preparation & Feature Engineering
+- 🏗 End-to-End Predictive Analytics Workflow
+
+## Business Impact
+
+This project extends athlete monitoring beyond descriptive wellness reporting by evaluating whether subjective wellness information can anticipate objective changes in physical performance.
+
+A validated predictive framework could support practitioners by:
+
+- Identifying athletes with elevated likelihood of performance suppression
+- Prioritizing athletes for additional assessment
+- Supporting individualized recovery decisions
+- Combining subjective and objective monitoring data
+- Moving athlete monitoring toward proactive decision support
+
+The long-term objective is not to replace practitioner judgment, but to provide an additional evidence-based signal that supports earlier and more informed intervention.
+
+## Lessons Learned
+
+This project reinforced the distinction between explanatory and predictive modeling.
+
+Predicting a composite Wellbeing Score using the same wellness indicators from which that score is calculated produces a largely predetermined relationship. Although those models may be useful for exploratory analyses and position-specific interaction testing, they are less informative as predictive models.
+
+The predictive modeling framework therefore focuses on independent objective outcomes such as CMJ and RSI performance. This provides a more meaningful test of whether wellness information can generalize to external measures of athlete readiness.
