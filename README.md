@@ -24,7 +24,7 @@ This project evaluates three primary questions:
 2. Can wellness indicators classify meaningful CMJ or RSI suppression?
 3. Which wellness indicators provide the greatest predictive value for athlete performance and readiness?
 
-## Data
+## Data and Measures
 
 The modeling dataset integrates two longitudinal data sources:
 
@@ -49,8 +49,6 @@ The modeling dataset integrates two longitudinal data sources:
 - RSI Z-score
 
 All athlete identifiers used in the portfolio repository are anonymized.
-
-## Data and Measures
 
 ### Athlete Wellness Survey
 
