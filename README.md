@@ -159,6 +159,12 @@ Classification thresholds were also evaluated using Youden's J statistic to inve
 - 🧹 Data Preparation & Feature Engineering
 - 🏗 End-to-End Predictive Analytics Workflow
 
+## 💻 Code & Reproducibility
+
+The complete R workflow for data preparation, feature engineering, supervised machine learning, cross-validation, model evaluation, and performance visualization is available in the repository.
+
+🔗 **[View the Supervised Machine Learning R Code](https://github.com/abenyarko/Athlete-Readiness-Predictive-Modeling/blob/main/analysis/Supervised_Jump_Git_Final.R)**
+
 ## Business Impact
 
 This project extends athlete monitoring beyond descriptive wellness reporting by evaluating whether subjective wellness information can anticipate objective changes in physical performance.
