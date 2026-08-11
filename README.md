@@ -50,9 +50,9 @@ The modeling dataset integrates two longitudinal data sources:
 
 All athlete identifiers used in the portfolio repository are anonymized.
 
-## Methodology
+## Data and Measures
 
-## Athlete Wellness Survey
+### Athlete Wellness Survey
 
 The Athlete Wellness Survey served as the primary source of subjective wellness data for this project. Athletes completed the survey to provide a snapshot of their current physical and psychological readiness.
 
@@ -75,6 +75,8 @@ Wellness data were subsequently integrated with objective neuromuscular performa
 ![Athlete Wellness Survey](https://github.com/abenyarko/Athlete-Readiness-Predictive-Modeling/blob/main/visuals/Wellness_Survey.png)
 
 *Example of the wellness monitoring instrument used to collect subjective athlete-reported measures.*
+
+## Methodology
 
 ### Data Preparation
 
