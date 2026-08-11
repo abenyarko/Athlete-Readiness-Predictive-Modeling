@@ -52,6 +52,30 @@ All athlete identifiers used in the portfolio repository are anonymized.
 
 ## Methodology
 
+## Athlete Wellness Survey
+
+The Athlete Wellness Survey served as the primary source of subjective wellness data for this project. Athletes completed the survey to provide a snapshot of their current physical and psychological readiness.
+
+The survey assessed:
+
+- **Illness** – Current presence of illness-related symptoms
+- **Sleep Quality** – Perceived quality and restfulness of sleep
+- **Overall Stress** – Current academic, emotional, and athletic stress
+- **Physical Fatigue** – Perceived level of physical fatigue
+- **Motivation** – Current motivation to train
+- **Soreness** – Overall perceived body soreness
+- **Specific Muscle Soreness** – Location-specific soreness, tightness, or concern
+
+The ordinal wellness responses were converted into numeric measures for analysis. These measures were used to calculate athlete-specific wellness indicators and standardized Z-scores.
+
+Wellness data were subsequently integrated with objective neuromuscular performance measures, including **Countermovement Jump (CMJ)** and **Reactive Strength Index (RSI)**. Supervised machine-learning models were then used to investigate whether patterns in self-reported wellness could help explain or identify changes in objective performance.
+
+### Survey Instrument
+
+![Athlete Wellness Survey](https://github.com/abenyarko/Athlete-Readiness-Predictive-Modeling/blob/main/visuals/Wellness_Survey.png)
+
+*Example of the wellness monitoring instrument used to collect subjective athlete-reported measures.*
+
 ### Data Preparation
 
 - Cleaned and standardized wellness and jump-performance datasets
